@@ -22,7 +22,6 @@ module.exports.CreateProduct_category = async (req, res, next) => {
     let product_category = new Product_category({
         name: body.name,
         image: body.image,
-        imageBanner: body.imageBanner,
         desc: body.desc,
     })
     product_category.save()

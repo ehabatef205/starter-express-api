@@ -8,9 +8,6 @@ const categorySchema = new Schema({
     image:{
         type: String
     },
-    imageBanner:{
-        type: String
-    },
     desc: {
         type: String
     },
